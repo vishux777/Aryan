@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environmental Impact of Network Traffic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#solutions">Solutions</a></li>
+      <li><a href="#calculator">Calculator</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+   <!--Image for the background have been defined using js. Check script.js for that.-->
+  <section id="home">
+    <div class="hero">
+      <h1>Environmental Impact of Network Traffic</h1><br>
+      <p><br></p>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="content-section">
+    <h2>The Impact of Network Traffic</h2>
+    <p>Network traffic consumes large amounts of energy due to the data centers, routers, and devices involved in transmitting information. With every click, download, or video stream, energy is required, contributing to the overall carbon footprint of the internet.</p>
+  </section>
+
+  <!-- Stats Section -->
+  <section id="stats" class="content-section">
+    <h2>Statistics on Network Traffic</h2>
+    <div class="stats-container">
+      <div class="stat-box">
+        <h3>Data Centers</h3>
+        <p>Data centers consume around 2% of the world’s energy annually.</p>
+      </div>
+      <div class="stat-box">
+        <h3>Video Streaming</h3>
+        <p>Video streaming accounts for over 60% of global network traffic.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Solutions Section -->
+  <section id="solutions" class="content-section">
+    <h2>Solutions to Reduce Impact</h2>
+    <ul>
+      <li>Optimize your video streaming quality.</li>
+      <li>Use efficient coding practices for websites and apps.</li>
+      <li>Switch to energy-efficient devices.</li>
+    </ul>
+  </section>
+
+  <!-- Calculator Section -->
+  <section id="calculator" class="content-section">
+    <h2>Network Carbon Footprint Calculator</h2>
+    <p>Calculate your own network usage and its environmental impact.</p>
+    <label for="data-usage">Enter your data usage in GB:</label>
+    <input type="number" id="data-usage" name="data-usage" min="0">
+    <button onclick="calculateImpact()">Calculate</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Environmental Impact. All rights reserved(Aryan)</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
