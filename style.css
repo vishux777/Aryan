@@ -27,13 +27,13 @@ body {
   }
   
   .hero {
-    background: url('dragon.webp') no-repeat center center;
+    background: url('Banner-home-1280x760.jpg') no-repeat center center;
     background-size: cover;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: lightcyan;
   }
   
   .hero h1 {
